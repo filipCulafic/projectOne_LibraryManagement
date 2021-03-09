@@ -97,7 +97,6 @@ public class ViewIssuedBooks {
 		goBack = new JButton("Go Back");
 		goBack.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				LibrarianSuccess.main(new String[] {});
 				frame.dispose();
 			}
 		});
