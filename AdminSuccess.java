@@ -64,7 +64,7 @@ public class AdminSuccess {
 		addLibrarian.setBounds(154, 57, 138, 40);
 		frame.getContentPane().add(addLibrarian);
 		
-		JButton viewLibrarian = new JButton("View Librarian");
+		JButton viewLibrarian = new JButton("View Librarians");
 		viewLibrarian.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				ViewLibrarian.main(new String[] {});
